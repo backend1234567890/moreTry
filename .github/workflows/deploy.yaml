@@ -38,11 +38,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "14" # Use the version of Node.js you need
+          node-version: "16" # Use the version of Node.js you need
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install # Use 'yarn install' if you're using Yarn
+        run: npm ci # Use 'yarn install' if you're using Yarn
 
       - name: Build
         run: npm run build # Adjust the command if needed
