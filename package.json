@@ -4,7 +4,6 @@
     "description": "[TOC]",
     "main": "src/server.ts",
     "scripts": {
-      "test": "jest",
       "ts-node": "ts-node",
       "ts-node-dev": "ts-node-dev",
       "tsc": "tsc --noEmit",
